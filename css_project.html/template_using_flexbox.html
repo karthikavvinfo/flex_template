@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=devide-width, initial-scale=1.0">
+        <title>Template using flexbox</title>
+        <style>
+         
+            body{
+                background-color:#585553;
+                font-family: sans-serif;
+                padding:50px;
+            }
+            .box{
+                display: flexbox;
+                background-color:white;
+                width:90%;
+                margin:auto;
+                padding-top:0px;
+            }
+            ul{
+                list-style:none;
+                padding:0;
+                text-align: center;
+                
+            }
+            li{
+                display:inline-block;
+                padding: 20px;
+                font-family:Verdana, sans-serif;
+              }
+            ul li:first-child {
+            background-color: #C2EA0F;
+            }
+            .box2{
+                display: flexbox;
+                padding:0;
+                border-left:solid 8px #C2EA0F;
+                font-size: 70px;
+                font-family: sans-serif;
+                font-weight:bolder;
+                color:#585553;
+                margin:auto;
+                background-color: white;
+                width:20%;
+                text-align: center;
+            }
+            .bg1{
+                display:flex;
+                justify-content: center;
+                background-position: center;
+                max-width: 100%;
+                height:500px;
+                
+            }
+             
+            .container{
+                display:flex;
+                justify-content: center;
+                
+            }
+            .card{
+                background-color:#C2EA0F;
+                justify-content:center;
+                margin:30px;
+                width:275px;
+                height:400px;
+                
+
+            }
+            .heading{
+                background-color:#C2EA0F;
+                font-size: small;
+                text-align: center;
+                color: white;
+                height:50px;
+            }           
+            .card-image{
+                background-size: cover;
+                max-width: 100%;
+                max-height: 100%;
+                margin-top: 15px;
+                margin-bottom: -20px;
+            }
+            .para{
+              
+                background-color: #585553;
+                height: 189px;
+                max-height: 100%;
+                max-width: 100%;
+            }
+           
+             .container2{
+                    display: flex;
+                    justify-content: center;
+                    
+             }
+             .lorem{
+                    justify-content:center;
+                    margin:30px;
+                    width:275px;
+                    height:400px;
+                    text-align: left;
+             }
+             .lorem-heading {
+                    color: #585553;
+                    justify-content: center;
+            }
+            .lorem-content div::before{
+                content: ">";
+            }
+            .lorem a{
+                background-color:#585553;
+                color:white;
+                padding:15px 30px;
+                display:inline-block;
+                text-align: left;
+               
+            }
+            .container3{
+                display:flex;
+                justify-content: center;
+                font-family:Arial, Helvetica, sans-serif;
+               
+            }
+            .first{
+                height:120px;
+                width:120px;
+                background-color: #C2EA0F;
+                text-align: center;
+                font-size:75px;
+                color:white;
+                margin-left: 20px;
+            }
+            
+            .second{
+                height:120px;
+                width:350px;
+                background-color:#585553;
+                color:#C2EA0F;
+                font-size: 15px;
+                
+            }
+            .second p{
+                color:whitesmoke;
+            }
+            .third{
+                height:120px;
+                width:120px;
+                background-color: #C2EA0F;
+                margin-left:50px;
+                text-align:center;
+                font-size: 75px;
+                justify-content: center;
+                color:white;
+            }
+            .fourth{
+                height:120px;
+                width:350px;
+                background-color:#585553;
+                color:#C2EA0F;
+                font-size: 15px;
+            }
+            .fourth p{
+                color:whitesmoke;
+            }
+            .design{
+                text-align: center;
+            }
+            .para1{
+                color:rgb(145, 216, 22);
+            }
+            .para2{
+                color:rgb(145, 216, 22);
+            }
+            
+            </style>
+    </head>
+    <body>
+        <div class="box">
+                <ul>
+                    <li>HOME</li>
+                    <li>ABOUT US</li>
+                    <li>PRODUCTS</li>
+                    <li>SERVICES</li>
+                    <li>CONTACT US</li>
+                </ul>
+            <div class="box2">    
+                    <p>space</p>
+            </div> 
+                <br><br>  
+            <div class="bg1">
+                    <img src="..//css_project.html/cssimg1.jpeg" width="85%">
+            </div>
+                <br><br>
+            <div class="container">
+                    <div class="card">
+                        <div class="heading">
+                        <h1>LOREM IPSUM IS</h1>
+                        </div>
+                        <div class="card-image">
+                        <img src="..//css_project.html/card1.jpeg" width="100%">
+                        </div>
+                        
+                        <div class="para">
+                        <p><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p> 
+                        </div>
+                    </div>
+                    
+                    <div class="card">
+                        <div class="heading">
+                        <h1>LOREM IPSUM IS</h1>
+                        </div>
+                        <div class="card-image">
+                        <img src="..//css_project.html/card2.jpeg" width="100%">
+                        </div>
+                        
+                        <div class="para">
+                        <p><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p> 
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="heading">
+                        <h1>LOREM IPSUM IS</h1>
+                        </div>
+                        <div class="card-image">
+                        <img src="..//css_project.html/card3.jpeg" width="100%">
+                        </div>
+                        
+                        <div class="para">
+                        <p><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p> 
+                        </div>
+                    </div>
+            </div>
+            <br>
+            <div class="container2">
+                <div class="lorem">
+                    <div class="lorem-heading">
+                        <h2>Lorem Ipsum Simply</h2>
+                    </div>
+                    <br>
+                   <div class="lorem-content">
+                    <p> <div>The standard chunk of lorem ipsum used</div></p>
+                    <p> <div>Duis a augue ac libero euismod vivvero sitth</div></p>
+                    <p> <div>The standard chunk of lorem ipsum used</div></p>
+                    <p> <div>Duis a augue ac libero euismod vivvero sitth</div></p>
+                    <p> <div>The standard chunk of lorem ipsum used</div></p>
+                    <p> <div>Duis a augue ac libero euismod vivvero sitth</div></p>
+                        
+                    </div>
+                </div>
+                
+                    <div class="lorem">
+                        <div class="lorem-heading">
+                            <h2> Lorem Ipsum Simply</h2>
+                        </div>
+                        <br>
+                       <div class="lorem-content2">
+                         <div class="para1"> <p>The Standard Chunk Of lorem ipsum Dolor Sit Amet</p></div>  
+                        
+                            There are many variation of passages of lorem ipsum available,but
+                               the majority  have suffered alteraion in some form,by injected 
+                               humor or randomised words which dont look even slightly beleivable
+                               .If you are going to use passage
+                            
+                        </div>
+                        <br><br>
+                            <a href="" >Read More</a>
+                    
+                    </div>
+                
+                <div class="lorem">
+                    <div class="lorem-heading">
+                        <h2> Lorem Ipsum Simply</h2 p>
+                    </div>
+                    <br>
+                   <div class="lorem-content3">
+                        <div class="para2"><p>The Standard Chunk Of lorem ipsum Dolor Sit Amet</p></div>
+                        
+                        There are many variation of passages of lorem ipsum available,but
+                           the majority  have suffered alteraion in some form,by injected 
+                           humor or randomised words which dont look even slightly beleivable
+                           .If you are going to use passage
+                           <br><br><br>
+                        <a href="" >Read More</a>
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="container3">
+                <div class="first">15</div>
+                <div class="second">
+                    <h2>LOREM IPSUM IS SIMPLY TEXT</h2>
+                    <p>Lorem ipsum dolor sit amet,consectetur adipiscing elit,
+                        sed do euismod temper incididunt labore dolore magna aliqua</p>
+                </div>
+                <div class="third">$</div>
+                <div class="fourth">
+                    <h2>LOREM IPSUM IS SIMPLY TEXT</h2>
+                    <p>Lorem ipsum dolor sit amet,consectetur adipiscing elit,
+                        sed do euismod temper incididunt labore dolore magna aliqua</p>
+                </div>
+            </div>
+            <br><br><br><br><br>
+            <hr>
+            <div class="design">
+                <p>DESIGN BY</p>
+            </div>
+            <br><br><br>
+            </div>
+        
+        
+        
+    </body>
+    </html>
